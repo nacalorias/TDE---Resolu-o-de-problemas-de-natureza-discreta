@@ -1,5 +1,12 @@
 #Ana Carolina Afonso Meiado 
 
+
+#Esse programa recebe como entrada um arquivo de texto
+# contendo vários conjuntos de dados e operações. 
+# A primeira linha contém o número de operações, sendo elas:
+# U: união, I: interseção, D: diferença, C: produto cartesiano
+# O programa calcula as operações e imprime o resultado em um novo conjunto
+
 def receber_arquivo(arquivo):
     with open(arquivo) as file:
         leitura = file.readlines()
