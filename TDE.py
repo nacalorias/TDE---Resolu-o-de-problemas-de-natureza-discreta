@@ -60,7 +60,7 @@ def saida_lista(nome, conj1, conj2, resultado):
     else:
         resultado_formatado = str(resultado)
     
-    return f"{nome}: conjunto 1 {{{conj1_lista}}}, conjunto 2 {{{conj2_lista}}}, resultado: {{{resultado_formatado}}}."
+    return f"{nome}: conjunto 1: {{{conj1_lista}}}, conjunto 2: {{{conj2_lista}}}, o resultado é: {{{resultado_formatado}}}."
 
 if __name__ == "__main__":
     main()
